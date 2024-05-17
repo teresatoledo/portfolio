@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from 'lucide-react'
 
 function Footer() {
   return (
-    <footer className='flex flex-col sm:flex-row justify-between items-center px-5 h-10'>
+    <footer className='flex flex-col gap-2 sm:flex-row justify-between items-center px-5 h-10'>
       <div>
         Teresa Toledo | 2024
       </div>

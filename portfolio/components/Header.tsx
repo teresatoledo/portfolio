@@ -13,7 +13,7 @@ function Header() {
   const router = useRouter()
   return (
     <div className="flex items-center justify-between p-4 mx-auto cursor-pointer sm:max-w-4xl md:max-w-6xl">
-      <Image src={logoAzul} alt="Logotipo" className="h-14 w-14" onClick={()=> router.push('/')}/>
+      <Image src={logoBold} alt="Logotipo" className="h-14 w-14" onClick={()=> router.push('#home')}/>
       
       <div className="items-center justify-between hidden sm:flex"><HeaderDesktop/></div>
       <div className="flex sm:hidden"><HeaderMobile/></div>

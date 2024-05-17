@@ -18,6 +18,9 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Portfolio",
   description: "Teresa's portfolio",
+  icons: {
+    icon: '/logoAzul.png'
+  }
 };
 
 export default function RootLayout({

@@ -1,20 +1,19 @@
 import React from 'react'
 import blackLogo from '@/public/blackLogo.jpg'
 import logoAzul from '@/public/logoAzul.png'
+import me from '@/public/me.jpg'
 import Image from 'next/image'
 function Home() {
   return (
 		<div
-			className="flex flex-col md:flex-row items-start justify-center pb-10"
+			className="flex flex-col md:flex-row items-start justify-center pb-10 mx-auto"
 			id="home"
 		>
-			<Image 	className="h-60 md:h-72 lg:h-80 pt-8 order-2 md:order-1 hidden dark:flex"
-				src={blackLogo}
-				alt="Logo"/>
-        <Image 	className="h-60 md:h-72 lg:h-80 pt-8 order-2 md:order-1 dark:hidden"
-				src={logoAzul}
-				alt="Logo"/>
-			<div className="flex flex-col items-center px-5 lg:pr-10 md:order-2">
+		
+				<Image src={me} alt='A picture of myself' className='rounded-full w-56 order-2 mx-auto sm:mx-2'/>
+
+			
+			<div className="flex flex-col items-center px-5 lg:pr-24 md:order-2 max-w-[800px]">
 				<h3 className="py-10 font-main font-bold text-3xl">
 					Hi! I'm <span className="text-darkblue">Teresa Toledo</span>
 				</h3>

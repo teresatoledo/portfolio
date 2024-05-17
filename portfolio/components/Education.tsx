@@ -21,7 +21,7 @@ function Education() {
       <li className="ms-4 mb-10">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 2021-June 2022</time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Master's degree in software translation</h3>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Master's degree in software translation (ISTRAD)</h3>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">During this year, I acquired a solid understanding of HTML and CSS fundamentals. Additionally, I immersed myself fully in the realm of software, website, and mobile app translation, familiarizing myself with the necessary processes for website localization.</p>
       </li>
       <li className="ms-4 mb-10">

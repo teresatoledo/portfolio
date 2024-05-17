@@ -32,7 +32,7 @@ function Projects() {
           <CardFooter className='flex flex-col items-start'>
             <p><span className='font-bold'>Front:</span> Next.js, Typescript, TailwindCSS</p>
             <p><span className='font-bold'>Back:</span> Node.js, PostgreSQL</p>
-            <a href="#" className='font-bold underline cursor-pointer'>See code</a>
+            <a href="https://github.com/teresatoledo/random-wod-generator" target='_blank' className='font-bold underline cursor-pointer'>See code</a>
           </CardFooter>
       </Card>
     </div>
