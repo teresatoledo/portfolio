@@ -20,6 +20,7 @@ function Contact() {
         <div className='flex gap-4 pt-4'>
           <Button className='bg-darkblue hover:bg-darkblue'><a href="https://www.linkedin.com/in/teresatoledo" target='_blank'>LinkedIn</a></Button>
           <Button className='bg-darkblue hover:bg-darkblue'><a href="https://github.com/teresatoledo" target='_blank'>GitHub</a></Button>
+          <Button className='bg-darkblue hover:bg-darkblue'><a href="mailto:teresatoledolara@gmail.com">Email</a></Button>
         </div>
         <div className='flex flex-wrap sm:flex-nowrap justify-center gap-2'>
         <input

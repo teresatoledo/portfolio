@@ -13,14 +13,15 @@ function Header() {
   const router = useRouter()
   return (
     <div className="flex items-center justify-between p-4 mx-auto cursor-pointer sm:max-w-4xl md:max-w-6xl">
-      <Image src={logoBold} alt="Logotipo" className="h-14 w-14" onClick={()=> router.push('#home')}/>
+      <Image src={logoBold} alt="Logotipo" className="h-14 w-14 dark:hidden" onClick={()=> router.push('#home')}/>
+      <Image src={logoAzul} alt="Logotipo" className="h-14 w-14 hidden dark:flex" onClick={()=> router.push('#home')}/>
       
       <div className="items-center justify-between hidden sm:flex"><HeaderDesktop/></div>
       <div className="flex sm:hidden"><HeaderMobile/></div>
       <div className="flex items-center justify-between gap-2 sm:gap-7">
-        <Linkedin href='https://www.linkedin.com/in/teresatoledo' target='_blank'/>
-        <Github href='https://github.com/teresatoledo' target='_blank'/>
-        <Mail href='mailto:teresatoledolara@gmail.com'/>
+        <a href='https://www.linkedin.com/in/teresatoledo' target='_blank'><Linkedin /></a>
+        <a href='https://github.com/teresatoledo' target='_blank'><Github /></a>
+        <a href='mailto:teresatoledolara@gmail.com'><Mail /></a>
         <ModeToggle/>
       </div>
     </div>

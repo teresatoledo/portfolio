@@ -16,8 +16,10 @@ function Projects() {
             <p>Vibrant e-commerce platform specializing in socks, seamlessly blending front-end design with robust back-end functionality.</p>
           </CardContent>
           <CardFooter className='flex flex-col items-start'>
-            <p><span className='font-bold'>Front:</span> Next.js, Typescript, TailwindCSS</p>
-            <p><span className='font-bold'>Back:</span> Node.js, PostgreSQL</p>
+            <div className='h-20'>
+              <p><span className='font-bold'>Front:</span> Next.js, Typescript, TailwindCSS</p>
+              <p><span className='font-bold'>Back:</span> Node.js, PostgreSQL</p>
+            </div>
             <a href="#" className='font-bold underline cursor-pointer'>See code</a>
           </CardFooter>
       </Card>
@@ -30,8 +32,9 @@ function Projects() {
             <p>This CrossFit generator crafts personalized WODs on demand, keeping your fitness routine fresh and exciting. </p>
           </CardContent>
           <CardFooter className='flex flex-col items-start'>
-            <p><span className='font-bold'>Front:</span> Next.js, Typescript, TailwindCSS</p>
-            <p><span className='font-bold'>Back:</span> Node.js, PostgreSQL</p>
+            <div className='h-20'>
+              <p><span className='font-bold'>Front:</span> React, SASS</p>
+            </div>
             <a href="https://github.com/teresatoledo/random-wod-generator" target='_blank' className='font-bold underline cursor-pointer'>See code</a>
           </CardFooter>
       </Card>

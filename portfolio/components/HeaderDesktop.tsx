@@ -5,7 +5,7 @@ function HeaderDesktop() {
   return (
     <div>
       <nav>
-        <ul className='flex gap-8'>
+        <ul className='flex gap-10'>
         <li className="relative group">
 						<a href="#home">
 							<span className="absolute inset-0 flex items-center justify-center  text-lg font-bold opacity-0 transition-opacity duration-300 text-darkblue group-hover:opacity-100">

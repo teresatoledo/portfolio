@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Portfolio",
   description: "Teresa's portfolio",
   icons: {
-    icon: '/logoAzul.png'
+    icon: '/logo.png'
   }
 };
 
@@ -28,6 +28,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   return (
     <html lang="en">
       <body className={urbanist.className}>

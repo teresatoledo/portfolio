@@ -1,6 +1,13 @@
+import Image from "next/image"
 import { CSS, Git, Github, HTML5, JavaScript, MySQL, Next, Node, Reactt, Sass, TailwindCSS } from "./Logos"
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel"
 import { Separator } from "./ui/separator"
+import problem from '@/public/problem.svg'
+import adapt from '@/public/adapt.svg'
+import communication from '@/public/communication.svg'
+import team from '@/public/team.svg'
+import time from '@/public/time.svg'
+import yoga from '@/public/yoga.svg'
 
 function Skills() {
   
@@ -65,6 +72,32 @@ function Skills() {
         </div>
         <Separator/>
         <h3 className="text-lg font-bold">Soft skills</h3>
+        <div className="w-20 flex justify-center gap-16">
+        <div className="flex gap-2 items-center" >
+                <Image src={problem} alt="Problem solving" className="w-5 h-5"/> 
+                <span>Problem solving</span>
+              </div>
+              <div className="flex gap-2 items-center">
+              <Image src={time} alt="Time management" className="w-5 h-5"/> 
+                <span>Time management</span>
+              </div>
+              <div className="flex gap-2 items-center">
+              <Image src={adapt} alt="Adaptability" className="w-5 h-5"/> 
+                <span>Adaptability</span>
+              </div>
+              <div className="flex gap-2 items-center">
+              <Image src={yoga} alt="Yoga pose" className="w-5 h-5"/> 
+                <span>Patience</span>
+              </div>
+              <div className="flex gap-2 items-center">
+              <Image src={communication} alt="Communication" className="w-5 h-5"/> 
+                <span>Communication</span>
+              </div>
+              <div className="flex gap-2 items-center">
+              <Image src={team} alt="Communication" className="w-5 h-5"/>
+                <span>Teamwork</span>
+              </div>
+        </div>
       </div>
       
     </div>
