@@ -9,7 +9,7 @@ function Experience() {
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2021-August 2023</time>
           <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Associate Translator (RWS)</h3>
-          <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Over these past two and a half years, I dedicated myself entirely to translating and revising scientific and technical texts. This endeavor allowed me to develop crucial skills in the translation industry, attention to detail and curiosity. Additionally, I assumed the role of project manager for certain clients, where I was responsible for tasks such as material preparation, managing delivery schedules, overseeing the team, and resolving any issues that arose.</p>
+          <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Over these past two and a half years, I dedicated myself entirely to translating and proofreading scientific and technical texts. This endeavor allowed me to develop crucial skills in the translation industry, attention to detail and curiosity. Additionally, I assumed the role of project manager for certain clients, where I was responsible for tasks such as project preparation, managing delivery schedules, overseeing the team, and resolving any issues that arose.</p>
       </li>
   </ol>
 </div>

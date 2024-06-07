@@ -47,19 +47,22 @@ function Skills() {
               </div>
         </div>
         <Separator/>
-        <h3 className="text-lg font-bold">Back-end</h3>
-        <div className="w-20 flex gap-5 justify-center">
-        <div className="flex gap-2 items-center">
-                <Node/>
-                <span>Node</span>
-              </div>
-              <div className="flex gap-2 items-center">
-                <MySQL/>
-                <span>MySQL</span>
-              </div>
-        </div>
-        <Separator/>
-        <h3 className="text-lg font-bold">Other</h3>
+        <div className="flex flex-col gap-4 sm:flex-row sm:gap-28">
+          <div>
+            <h3 className="text-lg font-bold">Back-end</h3>
+            <div className="w-20 flex gap-5 justify-center">
+            <div className="flex gap-2 items-center">
+                    <Node/>
+                    <span>Node</span>
+                  </div>
+                  <div className="flex gap-2 items-center">
+                    <MySQL/>
+                    <span>MySQL</span>
+                  </div>
+            </div>
+          </div>
+          <div>
+          <h3 className="text-lg font-bold text-center">Other</h3>
         <div className="w-20 flex gap-5 justify-center">
         <div className="flex gap-2 items-center">
                 <Git/>
@@ -70,9 +73,11 @@ function Skills() {
                 <span>GitHub</span>
               </div>
         </div>
+          </div>
+        </div>
         <Separator/>
-        <h3 className="text-lg font-bold">Soft skills</h3>
-        <div className="w-20 flex justify-center gap-16">
+        <h3 className="text-lg font-bold ">Soft skills</h3>
+        <div className="w-20 flex justify-center gap-4 sm:gap-16 flex-wrap sm:flex-nowrap">
         <div className="flex gap-2 items-center" >
                 <Image src={problem} alt="Problem solving" className="w-5 h-5"/> 
                 <span>Problem solving</span>

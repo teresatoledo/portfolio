@@ -7,7 +7,7 @@ function HeaderDesktop() {
       <nav>
         <ul className='flex gap-10'>
         <li className="relative group">
-						<a href="#home">
+						<a href="/">
 							<span className="absolute inset-0 flex items-center justify-center  text-lg font-bold opacity-0 transition-opacity duration-300 text-darkblue group-hover:opacity-100">
 								Home
 							</span>
@@ -16,7 +16,7 @@ function HeaderDesktop() {
 					</li>
          
 					<li className="relative group">
-						<a href="#skills">
+						<a href="/#skills">
 							<span className="absolute inset-0 flex items-center justify-center  text-lg font-bold opacity-0 transition-opacity duration-300 text-darkblue group-hover:opacity-100 ">
 								Skills
 							</span>
@@ -25,7 +25,7 @@ function HeaderDesktop() {
 						</a>
 					</li>
 					<li className="relative group">
-						<a href="#projects">
+						<a href="/#projects">
 							<span className="absolute inset-0 flex items-center justify-center  text-lg font-bold opacity-0 transition-opacity duration-300 text-darkblue group-hover:opacity-100">
 								Projects
 							</span>
@@ -34,7 +34,7 @@ function HeaderDesktop() {
 						</a>
 					</li>
           <li className="relative group">
-						<a href="#education">
+						<a href="/#education">
 							<span className="absolute inset-0 flex items-center justify-center  text-lg font-bold opacity-0 transition-opacity duration-300 text-darkblue group-hover:opacity-100">
 								Education
 							</span>
@@ -43,7 +43,7 @@ function HeaderDesktop() {
 						</a>
 					</li>
           <li className="relative group">
-						<a href="#experience">
+						<a href="/#experience">
 							<span className="absolute inset-0 flex items-center justify-center  text-lg font-bold opacity-0 transition-opacity duration-300 text-darkblue group-hover:opacity-100">
 								Experience
 							</span>
@@ -52,7 +52,7 @@ function HeaderDesktop() {
 						</a>
 					</li>
 					<li className="relative group">
-						<a href="#contact">
+						<a href="/#contact">
 							<span className="absolute inset-0 flex items-center justify-center  text-lg font-bold opacity-0 transition-opacity duration-300 text-darkblue group-hover:opacity-100">
 								Contact
 							</span>

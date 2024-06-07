@@ -2,14 +2,8 @@ import type { Metadata } from "next";
 import { Urbanist } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import Home from "@/components/Home";
 import { ThemeProvider } from "@/components/theme-provider";
-import Skills from "@/components/Skills";
-import { Separator } from "@/components/ui/separator";
-import Projects from "@/components/Projects";
-import Education from "@/components/Education";
-import Experience from "@/components/Experience";
-import Contact from "@/components/Contact";
+
 import Footer from "@/components/Footer";
 
 
@@ -39,20 +33,10 @@ export default function RootLayout({
             disableTransitionOnChange
           >
         <Header/>
-        <Home/>
-        <Separator/>
-        <Skills/>
-        <Separator/>
-        <Projects/>
-        <Separator/>
-        <Education/>
-        <Separator/>
-        <Experience/>
-        <Separator/>
-        <Contact/>
-        <Separator/>
-        <Footer/>
+        
         {children}
+        <Footer/>
+        
         </ThemeProvider>
         </body>
     </html>
