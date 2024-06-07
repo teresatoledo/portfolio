@@ -79,27 +79,27 @@ function Skills() {
         <h3 className="text-lg font-bold ">Soft skills</h3>
         <div className="w-20 flex justify-center gap-4 sm:gap-16 flex-wrap sm:flex-nowrap">
         <div className="flex gap-2 items-center" >
-                <Image src={problem} alt="Problem solving" className="w-5 h-5"/> 
+                <Image src={problem} alt="Problem solving" className="w-5 h-5 dark:w-6 dark:h-6 dark:bg-white dark:rounded-md"/> 
                 <span>Problem solving</span>
               </div>
               <div className="flex gap-2 items-center">
-              <Image src={time} alt="Time management" className="w-5 h-5"/> 
+              <Image src={time} alt="Time management" className="w-5 h-5 dark:w-6 dark:h-6 dark:bg-white dark:rounded-md"/> 
                 <span>Time management</span>
               </div>
               <div className="flex gap-2 items-center">
-              <Image src={adapt} alt="Adaptability" className="w-5 h-5"/> 
+              <Image src={adapt} alt="Adaptability" className="w-5 h-5 dark:w-6 dark:h-6 dark:bg-white dark:rounded-md"/> 
                 <span>Adaptability</span>
               </div>
               <div className="flex gap-2 items-center">
-              <Image src={yoga} alt="Yoga pose" className="w-5 h-5"/> 
+              <Image src={yoga} alt="Yoga pose" className="w-5 h-5 dark:w-6 dark:h-6 dark:bg-white dark:rounded-md"/> 
                 <span>Patience</span>
               </div>
               <div className="flex gap-2 items-center">
-              <Image src={communication} alt="Communication" className="w-5 h-5"/> 
+              <Image src={communication} alt="Communication" className="w-5 h-5 dark:w-6 dark:h-6 dark:bg-white dark:rounded-md"/> 
                 <span>Communication</span>
               </div>
               <div className="flex gap-2 items-center">
-              <Image src={team} alt="Communication" className="w-5 h-5"/>
+              <Image src={team} alt="Communication" className="w-5 h-5 dark:w-6 dark:h-6 dark:bg-white dark:rounded-md"/>
                 <span>Teamwork</span>
               </div>
         </div>
