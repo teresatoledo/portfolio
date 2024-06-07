@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import { Button } from './ui/button';
 
 function Contact() {
-  const emailRef = useRef(null);
+  const emailRef = useRef<HTMLInputElement>(null);
 
   const copyEmailToClipboard = () => {
     if (emailRef.current) {
