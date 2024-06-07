@@ -15,20 +15,20 @@ function Education() {
       <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 2022-June 2023</time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Master's degree in medical translation (AulaSIC)</h3>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Master&apos;s degree in medical translation (AulaSIC)</h3>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">Throughout this year, I honed my existing skills in medical translation and also delved into the realm of veterinary translation. In addition to translation expertise, I cultivated essential skills crucial for this delicate field: precision and meticulous attention to detail..</p>
       </li>
       <li className="ms-4 mb-10">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 2021-June 2022</time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Master's degree in software translation (ISTRAD)</h3>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Master&apos;s degree in software translation (ISTRAD)</h3>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">During this year, I acquired a solid understanding of HTML and CSS fundamentals. Additionally, I immersed myself fully in the realm of software, website, and mobile app translation, familiarizing myself with the necessary processes for website localization.</p>
       </li>
       <li className="ms-4 mb-10">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 2017-June 2021</time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Bachelor's degree in translation and interpreting (University of Granada)</h3>
-          <p className="text-base font-normal text-gray-500 dark:text-gray-400">Over these past four years, I've immersed myself in various fields of translation: scientific-technical, legal, video game localization, and website localization. Additionally, I seized the opportunity to spend a year with the <span className='font-bold'>Erasmus program at the University of the West of Scotland</span>, where I further developed and consolidated my English skills.</p>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Bachelor&apos;s degree in translation and interpreting (University of Granada)</h3>
+          <p className="text-base font-normal text-gray-500 dark:text-gray-400">Over these past four years, I&apos;ve immersed myself in various fields of translation: scientific-technical, legal, video game localization, and website localization. Additionally, I seized the opportunity to spend a year with the <span className='font-bold'>Erasmus program at the University of the West of Scotland</span>, where I further developed and consolidated my English skills.</p>
       </li>
   </ol>
 </div>
