@@ -15,7 +15,7 @@ function Home() {
 			
 			<div className="flex flex-col items-center px-5 lg:pr-24 md:order-2 max-w-[800px]">
 				<h3 className="py-10 font-main font-bold text-3xl">
-					Hi! I'm <span className="text-darkblue">Teresa Toledo</span>
+					Hi! I&apos;m <span className="text-darkblue">Teresa Toledo</span>
 				</h3>
 				<p className="font-main text-md text-cream pr-3">
 					As a{' '}
