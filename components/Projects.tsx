@@ -50,7 +50,7 @@ function Projects() {
           </CardContent>
           <CardFooter className='flex flex-col items-start'>
             <div className='pb-3'>
-              <p><span className='font-bold'>Front:</span> NextJs, Typescript, TailwindCSS</p>
+              <p className='h-12'><span className='font-bold'>Front:</span> NextJs, Typescript, TailwindCSS</p>
               <p><span className='font-bold'>Back:</span> MySQL, Typescript</p>
             </div>
             <a href="https://github.com/teresatoledo/rwg-v2" target='_blank' className='font-bold underline cursor-pointer'>View code</a>
